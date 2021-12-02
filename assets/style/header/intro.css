@@ -1,0 +1,20 @@
+.intro-img {
+    padding: 20px 0;
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.intro-title {
+    font-size: 1.85rem;
+    text-align: center;
+    line-height: 2.75rem;
+    padding-bottom: 15px;
+}
+
+.intro-description {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding-bottom: 30px;
+}

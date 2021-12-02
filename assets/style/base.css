@@ -11,7 +11,7 @@
   --cyan: #65e2d9;
   --blue: #339ecc;
   --light-red: #ff4242;
-  --intro-email-bg: #1c2431;
+  --header--email-bg: #1c2431;
   --main-bg: #181f2a;
   --footer-bg: #0b1523;
   --testimonials-bg: #202a3c;
@@ -23,7 +23,24 @@
 
 body {
   font-family: var(--open-sans);
-  background: url(../images/bg-curvy-mobile.svg) no-repeat center center / cover;
+  color: var(--white);
+}
+
+button, a, h1, h2, h3 {
+  color: inherit;
+  font-family: var(--raleway);
+}
+
+.get-started-btn {
+  font-size: 1rem;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, var(--cyan), var(--blue));
+  font-weight: 700;
+  width: 65%;
+  padding: 1.1rem 0;
+  border: 0;
+  border-radius: 30px;
 }
 
 .visually-hidden {
@@ -34,4 +51,9 @@ body {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+/* *remove this later* */
+img {
+  max-width: 90%;
 }

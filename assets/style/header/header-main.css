@@ -1,0 +1,23 @@
+.header-main {
+    margin: auto;
+    width: 90%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fylo-logo {
+    width: 90px;
+}
+
+.nav-menu-list {
+    display: flex;
+    list-style-type: none;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-family: var(--raleway);
+    text-decoration: none;
+}
