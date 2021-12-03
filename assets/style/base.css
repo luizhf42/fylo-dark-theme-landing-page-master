@@ -31,6 +31,10 @@ button, a, h1, h2, h3 {
   font-family: var(--raleway);
 }
 
+h2 {
+  font-size: 1.3rem;
+}
+
 .get-started-btn {
   font-size: 1rem;
   display: block;
@@ -52,9 +56,4 @@ button, a, h1, h2, h3 {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-}
-
-/* *remove this later* */
-img {
-  max-width: 90%;
 }
