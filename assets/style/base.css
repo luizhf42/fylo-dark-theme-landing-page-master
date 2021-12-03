@@ -35,6 +35,10 @@ h2 {
   font-size: 1.3rem;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .get-started-btn {
   font-size: 1rem;
   display: block;

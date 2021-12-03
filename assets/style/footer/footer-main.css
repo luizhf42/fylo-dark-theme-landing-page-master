@@ -1,0 +1,8 @@
+footer {
+    background: var(--footer-bg);
+    padding: 220px 5% 0;
+}
+
+.footer-fylo-logo {
+    margin-left: 20px;
+}
