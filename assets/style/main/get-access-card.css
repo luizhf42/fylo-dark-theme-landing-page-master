@@ -1,0 +1,42 @@
+.get-access-card {
+    margin: auto;
+    width: 90%;
+    background: var(--header--email-bg);
+    padding: 3rem 2rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 1px #00000078;
+    transform: translateY(50%);
+}
+
+.get-access-title {
+    padding-bottom: 1rem;
+}
+
+.get-access-description {
+    padding-bottom: 2rem;
+}
+
+.get-access-input {
+    border: 0;
+    width: 100%;
+    padding: 1.1rem 2rem;
+    border-radius: 30px;
+    margin-bottom: 1.5rem;
+}
+
+.get-access-input::placeholder {
+    font-size: 0.8rem;
+}
+
+.error {
+    text-align: left;
+    padding: 0 0 10px 2rem;
+    color: var(--light-red);
+    font-weight: 700;
+    display: none;
+}
+
+.get-access-btn {
+    width: 100%;
+}
