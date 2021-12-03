@@ -1,0 +1,48 @@
+.testimonials {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.testimonials-img {
+    align-self: start;
+}
+
+.testimonial-card {
+    background: var(--testimonials-bg);
+    margin-bottom: 2rem;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.quote {
+    font-size: 0.8rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.author-profile {
+    display: flex;
+    align-items: center;
+}
+
+.author-pic {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.author-name {
+    font-weight: 700;
+    font-size: .75rem;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+}
+
+.author-role, .ceo-role {
+    font-size: .7rem;
+    text-decoration: none;
+}
