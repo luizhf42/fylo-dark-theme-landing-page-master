@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="assets/style/main/get-access-card.css">
 
   <link rel="stylesheet" href="assets/style/footer/footer-main.css">
+  <link rel="stylesheet" href="assets/style/footer/nav.css">
+
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 </head>
 <body>
@@ -128,20 +130,31 @@
 
   <footer>
     <img src="assets/images/logo.svg" alt class="footer-fylo-logo">
-    <p class="location"><span class="location-icon"><img src="assets/images/icon-location.svg" alt=""></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-    <p class="phone-number"><span class="phone-icon"><img src="assets/images/icon-phone.svg" alt></span>+1-543-123-4567</p>
-    <p class="email-adress"><span class="email-icon"><img src="assets/images/icon-email.svg"></span>example@fylo.com</p>
+
+    <section class="contact">
+      <h3 class="visually-hidden">Contact</h3>
+      <div class="location contact-container">
+        <img src="assets/images/icon-location.svg" alt class="location-icon contact-icon"><p class="contact-text address">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      </div>
+      <div class="phone contact-container">
+        <img src="assets/images/icon-phone.svg" alt class="phone-icon contact-icon"><p class="contact-text phone-number">+1-543-123-4567</p>
+      </div>
+      
+      <div class="email contact-container">
+        <img src="assets/images/icon-email.svg" alt class="email-icon contact-icon"><p class="contact-text email-address">example@fylo.com</p>
+      </div>
+    </section>
 
     <nav class="footer-nav-menu">
       <ul class="footer-nav-menu-list">
-        <li class="footer-nav-item"><a href="#" class="nav-link">About Us</a></li>
-        <li class="footer-nav-item"><a href="#" class="nav-link">Jobs</a></li>
-        <li class="footer-nav-item"><a href="#" class="nav-link">Press</a></li>
-        <li class="footer-nav-item"><a href="#" class="nav-link">Blog</a></li>
+        <li class="footer-nav-item"><a href="#" class="footer-nav-link">About Us</a></li>
+        <li class="footer-nav-item"><a href="#" class="footer-nav-link">Jobs</a></li>
+        <li class="footer-nav-item"><a href="#" class="footer-nav-link">Press</a></li>
+        <li class="footer-nav-item blog"><a href="#" class="footer-nav-link">Blog</a></li>
 
-        <li class="footer-nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-        <li class="footer-nav-item"><a href="#" class="nav-link">Terms</a></li>
-        <li class="footer-nav-item"><a href="#" class="nav-link">Privacy</a></li>
+        <li class="footer-nav-item"><a href="#" class="footer-nav-link">Contact Us</a></li>
+        <li class="footer-nav-item"><a href="#" class="footer-nav-link">Terms</a></li>
+        <li class="footer-nav-item"><a href="#" class="footer-nav-link">Privacy</a></li>
       </ul>
     </nav>
   </footer>

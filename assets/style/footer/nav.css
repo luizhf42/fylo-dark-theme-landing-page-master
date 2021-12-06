@@ -1,0 +1,20 @@
+.footer-nav-menu {
+    margin-bottom: 70px;
+}
+
+.footer-nav-menu-list {
+    height: auto;
+}
+
+.footer-nav-item {
+    margin-bottom: 10px;
+}
+
+.blog {
+    margin-bottom: 40px;
+}
+
+.footer-nav-link {
+    text-decoration: none;
+    font-family: var(--open-sans);
+}
