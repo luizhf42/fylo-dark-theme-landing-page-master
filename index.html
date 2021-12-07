@@ -17,7 +17,8 @@
   <link rel="stylesheet" href="assets/style/main/get-access-card.css">
 
   <link rel="stylesheet" href="assets/style/footer/footer-main.css">
-  <link rel="stylesheet" href="assets/style/footer/nav.css">
+  <link rel="stylesheet" href="assets/style/footer/main-nav.css">
+  <link rel="stylesheet" href="assets/style/footer/social-nav.css">
 
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 </head>
@@ -121,10 +122,13 @@
       <h2 class="get-access-title">Get early access today</h2>
       <p class="get-access-description">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
 
-      <label for="email" class="visually-hidden">Insert your email:</label>
-      <input type="email" id="email" placeholder="email@example.com" required class="get-access-input">
-      <p class="error">Please enter a valid email address</p>
-      <button class="get-started-btn get-access-btn">Get Started For Free</button>
+      <form class="get-access-form">
+        <label for="email" class="visually-hidden">Insert your email:</label>
+        <input type="email" id="email" placeholder="email@example.com" class="get-access-input">
+        <p class="error">Please enter a valid email address</p>
+        <p class="success">Success!</p>
+        <button class="get-started-btn get-access-btn">Get Started For Free</button>
+      </form>
     </section>
   </main>
 
@@ -157,6 +161,17 @@
         <li class="footer-nav-item"><a href="#" class="footer-nav-link">Privacy</a></li>
       </ul>
     </nav>
+
+    <nav class="social-nav-menu">
+      <ul class="social-nav-menu-list">
+        <li class="social-nav-item"><a href="#" class="social-nav-link"><img src="assets/images/icon-facebook.svg" alt="" class="social-nav-icon icon-facebook"></a></li>
+        <li class="social-nav-item"><a href="#" class="social-nav-link"><img src="assets/images/icon-twitter.svg" alt="" class="social-nav-icon icon-twitter"></a></li>
+        <li class="social-nav-item"><a href="#" class="social-nav-link"><img src="assets/images/icon-instagram.svg" alt="" class="social-nav-icon icon-instagram"></a></li>
+      </ul>
+    </nav>
   </footer>
+
+  <script src="https://kit.fontawesome.com/14717c35ba.js" crossorigin="anonymous"></script>
+  <script src="assets/script/validation.js"></script>
 </body>
 </html>

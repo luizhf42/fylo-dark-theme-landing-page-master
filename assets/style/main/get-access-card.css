@@ -29,14 +29,22 @@
     font-size: 0.8rem;
 }
 
-.error {
+.error, .success {
     text-align: left;
     padding: 0 0 10px 2rem;
-    color: var(--light-red);
     font-weight: 700;
     display: none;
 }
 
+.success {
+    color: var(--blue);
+}
+
+.error {
+    color: var(--light-red);
+}
+
 .get-access-btn {
     width: 100%;
+    color: var(--white);
 }
