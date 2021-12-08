@@ -3,6 +3,7 @@
     display: block;
     width: 80%;
     margin: auto;
+    max-width: 440px;
 }
 
 .intro-title {
@@ -10,6 +11,8 @@
     text-align: center;
     line-height: 2.75rem;
     padding-bottom: 15px;
+    max-width: 550px;
+    margin: auto;
 }
 
 .intro-description {
@@ -17,8 +20,10 @@
     text-align: center;
     width: 80%;
     padding-bottom: 30px;
+    max-width: 440px;
 }
 
 .intro-btn {
     width: 65%;
+    max-width: 245px;
 }

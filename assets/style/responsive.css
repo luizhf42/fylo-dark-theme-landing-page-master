@@ -1,4 +1,96 @@
-.nav-link:hover {
+/* .nav-link:hover {
     text-decoration: underline;
     font-weight: 700;
+} */
+
+/* .stay-productive {
+    display: flex;
+}
+
+.stay-productive-img{
+    width: 60%;
+}
+
+.stay-productive-text {
+    width: 40%;
+} 
+} */
+
+@media screen and (min-width: 600px) {
+    header {
+    background-image: url(../images/bg-curvy-desktop.svg), linear-gradient(to bottom, var(--header--email-bg) 0 76%, var(--main-bg) 76% 100%);
+    }
+
+    .features {
+        justify-content: space-around;
+        grid-template-columns: repeat(2, 40%);
+        grid-template-rows: repeat(2, auto);
+        grid-row-gap: 6rem;
+    }
+
+    .stay-productive-img{
+        width: 80%;
+    }
+
+    .author-pic {
+        width: 35px;
+        height: 35px;
+    }
+
+    .quote {
+        font-size: 1rem;
+    }
+
+    .author-name {
+        font-size: 0.9rem;
+    }
+
+    .author-role, .ceo-role {
+        font-size: 0.8rem;
+    }
+
+    .get-access-description {
+        margin: auto;
+        max-width: 525px;
+    }
+
+    .get-access-input {
+        max-width: 550px;
+    }
+
+    .footer-nav {
+        display: flex;
+        width: 100%;
+    }
+
+    .footer-nav-menu {
+        width: 60%;
+        padding: 0;
+    }
+    
+    .footer-nav-menu-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 170px;
+    }
+
+    .social-nav-menu {
+        width: 40%;
+    }
+
+    .social-nav-menu-list {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .social-nav-item {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-nav-link, .social-nav-icon {
+        width: 20px;
+        height: 20px;
+    }
 }
