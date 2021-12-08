@@ -40,6 +40,8 @@ ul {
 }
 
 .get-started-btn {
+  text-decoration: none;
+  text-align: center;
   font-size: 1rem;
   display: block;
   margin: auto;
