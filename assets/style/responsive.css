@@ -17,80 +17,176 @@
 } */
 
 @media screen and (min-width: 600px) {
-    header {
-    background-image: url(../images/bg-curvy-desktop.svg), linear-gradient(to bottom, var(--header--email-bg) 0 76%, var(--main-bg) 76% 100%);
-    }
+  header {
+    background-image: url(../images/bg-curvy-desktop.svg),
+      linear-gradient(
+        to bottom,
+        var(--header--email-bg) 0 76%,
+        var(--main-bg) 76% 100%
+      );
+  }
 
-    .features {
-        justify-content: space-around;
-        grid-template-columns: repeat(2, 40%);
-        grid-template-rows: repeat(2, auto);
-        grid-row-gap: 6rem;
-    }
+  .features {
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 6rem;
+  }
 
-    .stay-productive-img{
-        width: 80%;
-    }
+  .stay-productive-img {
+    width: 80%;
+  }
 
-    .author-pic {
-        width: 35px;
-        height: 35px;
-    }
+  .author-pic {
+    width: 35px;
+    height: 35px;
+  }
 
-    .quote {
-        font-size: 1rem;
-    }
+  .quote {
+    font-size: 1rem;
+  }
 
-    .author-name {
-        font-size: 0.9rem;
-    }
+  .author-name {
+    font-size: 0.9rem;
+  }
 
-    .author-role, .ceo-role {
-        font-size: 0.8rem;
-    }
+  .author-role,
+  .ceo-role {
+    font-size: 0.8rem;
+  }
 
-    .get-access-description {
-        margin: auto;
-        max-width: 525px;
-    }
+  .get-access-description {
+    margin: auto;
+    max-width: 525px;
+  }
 
-    .get-access-input {
-        max-width: 550px;
-    }
+  .get-access-input {
+    max-width: 550px;
+  }
 
-    .footer-nav {
-        display: flex;
-        width: 100%;
-    }
+  .footer-nav {
+    display: flex;
+    width: 100%;
+  }
 
-    .footer-nav-menu {
-        width: 60%;
-        padding: 0;
-    }
-    
-    .footer-nav-menu-list {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 170px;
-    }
+  .footer-nav-menu {
+    width: 60%;
+    padding: 0;
+  }
 
-    .social-nav-menu {
-        width: 40%;
-    }
+  .footer-nav-menu-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 170px;
+  }
 
-    .social-nav-menu-list {
-        justify-content: space-evenly;
-        width: 100%;
-    }
+  .social-nav-menu {
+    width: 40%;
+  }
 
-    .social-nav-item {
-        width: 40px;
-        height: 40px;
-    }
+  .social-nav-menu-list {
+    justify-content: space-evenly;
+    width: 100%;
+  }
 
-    .social-nav-link, .social-nav-icon {
-        width: 20px;
-        height: 20px;
-    }
+  .social-nav-item {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-nav-link,
+  .social-nav-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    padding: 30px 0 130px;
+    background: var(--header--email-bg) url(../images/bg-curvy-desktop.svg)
+      no-repeat center 107% / 100%;
+  }
+
+  .header-main {
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .fylo-logo {
+    width: 176px;
+  }
+
+  .nav-menu-list {
+    width: 230px;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+    font-weight: 700;
+  }
+
+  .intro-img, .intro-title, .stay-productive-title {
+    max-width: 720px;
+    font-size: 3rem;
+    padding-bottom: 25px;
+  }
+
+  .intro-description {
+    max-width: 615px;
+    font-size: 1.5rem;
+  }
+
+  .intro-btn {
+    font-size: 1.3rem;
+    max-width: 300px;
+  }
+
+  .get-started-btn:hover {
+    background: var(--cyan);
+  }
+
+  main {
+    padding-top: 0;
+  }
+
+  .features {
+    grid-template-columns: repeat(2, 27%);
+    justify-content: space-evenly;
+  }
+
+  .stay-productive {
+    display: flex;
+    justify-content: space-around;
+    padding: 140px 5%;
+    align-items: center;
+  }
+
+  .stay-productive-img {
+    width: 50%;
+    margin: 0;
+  }
+
+  .stay-productive-text {
+    width: 45%;
+  }
+
+  .stay-productive-title {
+    text-indent: 0;
+    width: 500px;
+  }
+
+  .stay-productive-description {
+    font-size: 1.2rem;
+  }
+
+  .link-text {
+    font-size: 1.2rem;
+    width: 155px;
+  }
+
+  .stay-productive-link:hover {
+    filter: brightness(1000%);
+  }
 }

@@ -40,12 +40,13 @@ ul {
 }
 
 .get-started-btn {
+  cursor: pointer;
   text-decoration: none;
   text-align: center;
   font-size: 1rem;
   display: block;
   margin: auto;
-  background: linear-gradient(to right, var(--cyan), var(--blue));
+  background: radial-gradient(var(--cyan), var(--blue));
   font-weight: 700;
   padding: 1.1rem 0;
   border: 0;
