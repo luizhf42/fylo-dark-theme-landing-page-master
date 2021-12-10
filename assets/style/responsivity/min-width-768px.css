@@ -1,0 +1,204 @@
+@media screen and (min-width: 768px) {
+  header {
+    padding: 30px 0 130px;
+    background: var(--header--email-bg) url(../../images/bg-curvy-desktop.svg)
+      no-repeat center 107% / 100%;
+  }
+
+  .header-main {
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .fylo-logo {
+    width: 176px;
+  }
+
+  .nav-menu-list {
+    width: 230px;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+    font-weight: 700;
+  }
+
+  .intro-img,
+  .intro-title,
+  .stay-productive-title,
+  .get-access-title {
+    max-width: 720px;
+    font-size: 3rem;
+    padding-bottom: 25px;
+    margin: auto;
+  }
+
+  .intro-description {
+    max-width: 615px;
+    font-size: 1.5rem;
+  }
+
+  .intro-btn {
+    font-size: 1.3rem;
+    max-width: 300px;
+  }
+
+  .get-started-btn:hover {
+    background: var(--cyan);
+  }
+
+  main {
+    padding-top: 0;
+  }
+
+  .features {
+    grid-template-columns: repeat(2, 27%);
+    justify-content: space-evenly;
+  }
+
+  .stay-productive {
+    display: flex;
+    justify-content: space-around;
+    padding: 140px 5%;
+    align-items: center;
+  }
+
+  .stay-productive-img {
+    width: 50%;
+    margin: 0;
+  }
+
+  .stay-productive-title {
+    text-indent: 0;
+    width: 500px;
+    margin: 0;
+  }
+
+  .stay-productive-text {
+    width: 45%;
+  }
+
+
+  .stay-productive-description {
+    font-size: 1.2rem;
+  }
+
+  .link-text {
+    font-size: 1.2rem;
+    width: 155px;
+  }
+
+  .stay-productive-link:hover {
+    filter: brightness(1000%);
+  }
+
+  .testimonials {
+    width: 90%;
+    position: relative;
+  }
+
+  .testimonials-img {
+    transform: translate(25px, -35px);
+    position: absolute;
+  }
+
+  .testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .testimonial-card {
+    width: 28%;
+    padding: 30px;
+    z-index: 2;
+  }
+
+  .author-pic {
+    width: 30px;
+    height: 30px;
+  }
+
+  .author-name {
+    letter-spacing: 0;
+  }
+
+  .get-access-card {
+    width: 70%;
+  }
+
+  .get-access-description {
+    font-size: 1.2rem;
+    max-width: 745px;
+    padding-bottom: 2.5rem;
+  }
+
+  .get-access-form {
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 85%;
+    justify-content: space-between;
+  }
+
+  .get-access-input {
+    max-width: 60%;
+    margin-bottom: 0;
+  }
+
+  .get-access-btn {
+    max-width: 30%;
+    margin: 0;
+  }
+
+  .error,
+  .success {
+    position: absolute;
+    transform: translate(-2px, 55px);
+  }
+
+  footer {
+    padding: 220px 10% 0;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact {
+    display: flex;
+    width: 48%;
+  }
+
+  .footer-nav {
+    width: 40%;
+  }
+
+  .footer-nav-link:hover {
+    font-weight: 700;
+  }
+
+  .social-nav-item {
+    width: 28px;
+    height: 28px;
+    transition: .5s;
+  }
+
+  .facebook-item:hover {
+    filter: invert(42%) sepia(9%) saturate(3187%) hue-rotate(182deg) brightness(91%) contrast(97%);
+  }
+
+  .twitter-item:hover {
+    filter: invert(49%) sepia(28%) saturate(2356%) hue-rotate(172deg) brightness(101%) contrast(90%);
+  }
+
+  .instagram-item:hover {
+    filter: invert(35%) sepia(79%) saturate(6326%) hue-rotate(319deg) brightness(93%) contrast(86%);
+  }
+
+  .social-nav-link,
+  .social-nav-icon {
+    width: 14px;
+    height: 14px;
+  }
+}
