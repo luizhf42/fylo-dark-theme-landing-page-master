@@ -28,17 +28,17 @@
 </head>
 <body>
   <header>
-    <section class="header-main">
+    <div class="header-main">
       <img src="assets/images/logo.svg" alt="" class="fylo-logo">
 
-      <nav class="nav-menu">
+      <nav class="header-nav-menu">
         <ul class="nav-menu-list">
           <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Sign in</a></li>
         </ul>
       </nav>
-    </section>
+    </div>
 
     <section class="intro">
       <img src="assets/images/illustration-intro.png" class="intro-img" alt="">
@@ -50,6 +50,7 @@
 
   <main>
     <section class="features">
+      <h2 class="visually-hidden">Features</h2>
       <article class="feature-card">
         <img src="assets/images/icon-access-anywhere.svg" alt="" class="feature-img">
         <h2 class="feature-title">Access your files, anywhere</h2>
@@ -81,7 +82,7 @@
         <h2 class="stay-productive-title">Stay productive, wherever you are</h2>
         <p class="stay-productive-description">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
         <p class="stay-productive-description">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
-        <a href="#" class="stay-productive-link"><span class="link-text">See how Fylo works</span> <span class="link-icon"><img src="assets/images/icon-arrow.svg"></span></a>
+        <a href="#" class="stay-productive-link"><span class="link-text">See how Fylo works</span> <span class="link-icon"><img alt src="assets/images/icon-arrow.svg"></span></a>
       </div>
     </section>
 
@@ -90,6 +91,7 @@
       <img src="assets/images/bg-quotes.png" alt="" class="testimonials-img">
       <div class="testimonial-cards">
         <article class="testimonial-card">
+          <h3 class="visually-hidden">Testimonial 1</h3>
           <blockquote class="quote">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</blockquote>
           <div class="author-profile">
             <img src="assets/images/profile-1.jpg" alt="" class="author-pic">
@@ -100,6 +102,7 @@
           </div>
         </article>
         <article class="testimonial-card">
+          <h3 class="visually-hidden">Testimonial 2</h3>
           <blockquote class="quote">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</blockquote>
           <div class="author-profile">
             <img src="assets/images/profile-2.jpg" alt="" class="author-pic">
@@ -111,6 +114,7 @@
         </article>
         
         <article class="testimonial-card">
+          <h3 class="visually-hidden">Testimonial 3</h3>
           <blockquote class="quote">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</blockquote>
           <div class="author-profile">
             <img src="assets/images/profile-3.jpg" alt="" class="author-pic">
@@ -140,7 +144,7 @@
   <footer>
     <img src="assets/images/logo.svg" alt class="footer-fylo-logo">
 
-    <section class="navigation">
+    <div class="navigation">
       <article class="contact">
         <h3 class="visually-hidden">Contact</h3>
         <div class="location contact-container">
@@ -156,7 +160,7 @@
           </div>
         </div>
       </article>
-      <article class="footer-nav">
+      <div class="footer-nav">
         <nav class="footer-nav-menu">
           <ul class="footer-nav-menu-list">
             <li class="footer-nav-item"><a href="#" class="footer-nav-link">About Us</a></li>
@@ -170,16 +174,15 @@
         </nav>
         <nav class="social-nav-menu">
           <ul class="social-nav-menu-list">
-            <li class="social-nav-item facebook-item"><a href="#" class="social-nav-link"><img src="assets/images/icon-facebook.svg" alt="" class="social-nav-icon icon-facebook"></a></li>
-            <li class="social-nav-item twitter-item"><a href="#" class="social-nav-link"><img src="assets/images/icon-twitter.svg" alt="" class="social-nav-icon icon-twitter"></a></li>
-            <li class="social-nav-item instagram-item"><a href="#" class="social-nav-link"><img src="assets/images/icon-instagram.svg" alt="" class="social-nav-icon icon-instagram"></a></li>
+            <li class="social-nav-item facebook-item"><a aria-label="Facebook" href="#" class="social-nav-link"><img src="assets/images/icon-facebook.svg" alt="" class="social-nav-icon icon-facebook"></a></li>
+            <li class="social-nav-item twitter-item"><a aria-label="Twitter" href="#" class="social-nav-link"><img src="assets/images/icon-twitter.svg" alt="" class="social-nav-icon icon-twitter"></a></li>
+            <li class="social-nav-item instagram-item"><a aria-label="Instagram" href="#" class="social-nav-link"><img src="assets/images/icon-instagram.svg" alt="" class="social-nav-icon icon-instagram"></a></li>
           </ul>
         </nav>
-      </article>
-    </section>
+      </div>
+    </div>
   </footer>
 
-  <script src="https://kit.fontawesome.com/14717c35ba.js" crossorigin="anonymous"></script>
   <script src="assets/script/validation.js"></script>
 </body>
 </html>
